@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>IGC - Farmer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">    
+    </head>
+    <body style="background-color: #eff0f2;"> 
+        <header class="navbar navbar-dark sticky-top flex-md-nowrap p-4 shadow glassKind" style="background-color: #064420;">
+            <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-nav" style="position: fixed; right: 1em;">
+                <div class="nav-item text-nowrap">
+                <a class="nav-link px-3" href="#">Sign out</a>
+                </div>
+            </div>
+        </header>
+        <div class="container-fluid">
+            <div class="row">
+                <!--SideNav -->
+                <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse">
+                    <div class="position-sticky pt-3">
+                      <ul class="nav flex-column">
+                        <li class="nav-item">
+                          <a class="nav-link" href="dashboard.html">
+                              <div class="row">
+                                  <div class="col-3">
+                                      <i class="fa-solid fa-gauge"></i>
+                                  </div>
+                                  <div class="col-9"> Dashboard</div>
+                              </div>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="profile.html">
+                              <div class="row">
+                                  <div class="col-3">
+                                      <i class="fa-solid fa-user"></i>
+                                  </div>
+                                  <div class="col-9">
+                                       Profile
+                                  </div>
+                              </div>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="input_requirement.html">
+                              <div class="row">
+                                  <div class="col-3">
+                                      <i class="fa-solid fa-seedling"></i>
+                                  </div>
+                                  <div class="col-9"> Input Requirement</div>
+                              </div>
+                          </a>
+                        </li>
+                        <!-- <li class="nav-item">
+                          <a class="nav-link" href="#">
+                              <div class="row">
+                                  <div class="col-3">
+                                      <i class="fa-solid fa-hand-holding-dollar"></i>
+                                  </div>
+                                  <div class="col-9"> Bid Results</div>
+                              </div>
+                          </a>
+                        </li> -->
+                        <li class="nav-item">
+                          <a class="nav-link" href="financials.html">
+                              <div class="row">
+                                  <div class="col-3">
+                                      <i class="fa-solid fa-indian-rupee-sign"></i>
+                                  </div>
+                                  <div class="col-9"> Financials</div>
+                              </div>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="shop_fpo.html">
+                              <div class="row">
+                                  <div class="col-3">
+                                      <i class="fa-solid fa-shop"></i>
+                                  </div>
+                                  <div class="col-9"> FPO Store</div>
+                              </div>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="purchases.html">
+                              <div class="row">
+                                  <div class="col-3">
+                                      <i class="fa-solid fa-fingerprint"></i>
+                                  </div>
+                                  <div class="col-9"> Purchase Authentication</div>
+                              </div>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="estimates.html">
+                              <div class="row">
+                                  <div class="col-3">
+                                      <i class="fa-solid fa-barcode"></i>
+                                  </div>
+                                  <div class="col-9"> Selling Prices</div>
+                              </div>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="insurance.html">
+                              <div class="row">
+                                  <div class="col-3">
+                                      <i class="fa-solid fa-car-crash"></i>
+                                  </div>
+                                  <div class="col-9"> Insurance</div>
+                              </div>
+                          </a>
+                        </li>
+                        <!-- <li class="nav-item">
+                          <a class="nav-link" href="submit_produce.html">
+                              <div class="row">
+                                  <div class="col-3">
+                                      <i class="fa-solid fa-arrow-pointer"></i>
+                                  </div>
+                                  <div class="col-9"> Submit Produce</div>
+                              </div>
+                          </a>
+                        </li> -->
+                        <li class="nav-item">
+                          <a class="nav-link" href="weather.html">
+                              <div class="row">
+                                  <div class="col-3">
+                                      <i class="fa-solid fa-cloud-sun-rain"></i>
+                                  </div>
+                                  <div class="col-9"> Weather Forecast</div>
+                              </div>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="fpo_details.html">
+                              <div class="row">
+                                  <div class="col-3">
+                                      <i class="fa-solid fa-circle-info"></i>
+                                  </div>
+                                  <div class="col-9"> FPO Details</div>
+                              </div>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="apply_loan.html">
+                              <div class="row">
+                                  <div class="col-3">
+                                      <i class="fa-solid fa-building-columns"></i>
+                                  </div>
+                                  <div class="col-9"> Apply Loan</div>
+                              </div>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="fpo_posts.html">
+                              <div class="row">
+                                  <div class="col-3">
+                                      <i class="fa-solid fa-newspaper"></i>
+                                  </div>
+                                  <div class="col-9"> FPO Announcements</div>
+                              </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                </nav>
+                <!--end SideNav -->
+                <!-- details container -->
+                <div class="col mt-4 container mb-5">
+                    <div class="container-fluid">
+                        <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                            <h3 class="text-dark mb-0">Financials</h3>
+                        </div>
+                        <!-- table with details -->
+                        <div class="row m-1">
+                            <div class="col">
+                                <div class="card shadow border-start-primary py-2">
+                                    <div class="card-body table-responsive">
+                                        <h5>Active</h5> 
+                                        <table class="table table-borderless table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th>Loan ID</th>
+                                                    <th>Purpose</th>
+                                                    <th>Lender</th>
+                                                    <th>Loan Amount</th>
+                                                    <th>Date of Borrowing</th>
+                                                    <th>EMI Cycle</th>
+                                                    <th>Final Due Date</th>
+                                                    <th>Repayment Structure</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>SAM10742671</td>
+                                                    <td>Input Supplies</td>
+                                                    <td>Samunnati</td>
+                                                    <td>3,00,000</td>
+                                                    <td>12/12/21</td>
+                                                    <td>Monthly</td>
+                                                    <td>12/12/22</td>
+                                                    <td><button class="btn btn-sm btn-dark">Click Here</button></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>SAM10742671</td>
+                                                    <td>Input Supplies</td>
+                                                    <td>Samunnati</td>
+                                                    <td>3,00,000</td>
+                                                    <td>12/12/21</td>
+                                                    <td>Monthly</td>
+                                                    <td>12/12/22</td>
+                                                    <td><button class="btn btn-sm btn-dark">Click Here</button></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>SAM10742671</td>
+                                                    <td>Input Supplies</td>
+                                                    <td>Samunnati</td>
+                                                    <td>3,00,000</td>
+                                                    <td>12/12/21</td>
+                                                    <td>Monthly</td>
+                                                    <td>12/12/22</td>
+                                                    <td><button class="btn btn-sm btn-dark">Click Here</button></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row m-2">
+                            <div class="col">
+                                <div class="card shadow border-start-primary py-2">
+                                    <div class="card-body">
+                                        <h5>Loan History</h5> 
+                                        <table>
+
+                                        </table>      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>

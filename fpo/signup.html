@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IGC - Farmer</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <body class="sign_up d-md-flex justify-content-md-center align-items-md-center m-lg-5">
+        <div class="shadow card">
+            <div class="card-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Sign Up</h3>
+                        </div>
+                    </div>
+                    <form>
+                        <!-- signup input details -->
+                        <div class="row mb-2">
+                            <div class="col-12 col-md-6"><label class="form-label">Name of FPO</label><input type="text" class="form-control" required /></div>
+                            <div class="col-12 col-md-6"><label class="form-label">Mobile</label><input type="text" class="form-control" required minlength="10" maxlength="10" /></div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12 col-md-6"><label class="form-label">Date Of Incorporation</label><input class="form-control" type="date" required /></div>
+                            <div class="col-12 col-md-6"><label class="form-label">Address</label><input type="text" class="form-control" required /></div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12 col-md-6"><label class="form-label">PAN Number</label><input type="text" class="form-control" required /></div>
+                            <div class="col-12 col-md-6"><label class="form-label">Registration Number</label><input type="text" class="form-control" required /></div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12 col-md-6"><label class="form-label">Crops</label><input type="text" class="form-control" required /></div>
+                            <div class="col-12 col-md-6"><label class="form-label">Land in Cultivation (in Acres)<br /></label><input type="text" class="form-control" required /></div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12 col-md-6"><label class="form-label">Type of FPO</label>
+                                <select class="form-select">
+                                    <option value="12" selected>Farmers</option>
+                                    <option value="13">Aggregators</option>
+                                    <option value="14">Sellers</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-6"><label class="form-label">No of Shareholders<br /></label><input type="text" class="form-control" required /></div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12 col-md-6"><label class="form-label">No of Landless Farmers<br /></label><input type="text" class="form-control" required /></div>
+                            <div class="col-12 col-md-6"><label class="form-label">Paid Up Capital<br /></label><input type="text" class="form-control" required /></div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12 col-md-6"><label class="form-label">Seed Licence Number<br /></label><input type="text" class="form-control" required /></div>
+                            <div class="col-12 col-md-6"><label class="form-label">Pesticide Licence Number<br /></label><input type="text" class="form-control" required /></div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12 col-md-6"><label class="form-label">Bank Name<br /></label><input type="text" class="form-control" required /></div>
+                            <div class="col-12 col-md-6"><label class="form-label">Account Number<br /></label><input type="text" class="form-control" required /></div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12 col-md-6"><label class="form-label">IFSC Code<br /></label><input type="text" class="form-control" required /></div>
+                            <div class="col-12 col-md-6"><label class="form-label">Profile Picture<br /></label><input type="file" class="form-control" required accept="image/*" /></div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12 col-md-6"><label class="form-label">PAN Card Picture<br /></label><input type="file" class="form-control" required accept="image/*" /></div>
+                        </div>
+                        <div class="m-2">
+                            <h5>Director's Details</h5>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12 col-md-4"><label class="form-label">Director 1 Name</label><input type="text" class="form-control" required /></div>
+                            <div class="col-12 col-md-4"><label class="form-label">Mobile</label><input type="text" class="form-control" required minlength="10" maxlength="10" /></div>
+                            <div class="col-12 col-md-4">
+                                <div class="row">
+                                    <div class="col-12 col-md-6"><label class="col-form-label">Gender</label></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-check form-check-inline"><input type="radio" class="form-check-input" id="formCheck-1" /><label class="form-check-label" for="formCheck-1">Male</label></div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-check form-check-inline"><input type="radio" class="form-check-input" id="formCheck-3" /><label class="form-check-label" for="formCheck-1">Female</label></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12 col-md-4"><label class="form-label">Director 2 Name</label><input type="text" class="form-control" required /></div>
+                            <div class="col-12 col-md-4"><label class="form-label">Mobile</label><input type="text" class="form-control" required minlength="10" maxlength="10" /></div>
+                            <div class="col-12 col-md-4">
+                                <div class="row">
+                                    <div class="col-12 col-md-6"><label class="col-form-label">Gender</label></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-check form-check-inline"><input type="radio" class="form-check-input" id="formCheck-1" /><label class="form-check-label" for="formCheck-1">Male</label></div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-check form-check-inline"><input type="radio" class="form-check-input" id="formCheck-3" /><label class="form-check-label" for="formCheck-1">Female</label></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12 col-md-4"><label class="form-label">Director 3 Name</label><input type="text" class="form-control" required /></div>
+                            <div class="col-12 col-md-4"><label class="form-label">Mobile</label><input type="text" class="form-control" required minlength="10" maxlength="10" /></div>
+                            <div class="col-12 col-md-4">
+                                <div class="row">
+                                    <div class="col-12 col-md-6"><label class="col-form-label">Gender</label></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-check form-check-inline"><input type="radio" class="form-check-input" id="formCheck-1" /><label class="form-check-label" for="formCheck-1">Male</label></div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-check form-check-inline"><input type="radio" class="form-check-input" id="formCheck-3" /><label class="form-check-label" for="formCheck-1">Female</label></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12 col-md-4"><label class="form-label">Director 4 Name</label><input type="text" class="form-control" required /></div>
+                            <div class="col-12 col-md-4"><label class="form-label">Mobile</label><input type="text" class="form-control" required minlength="10" maxlength="10" /></div>
+                            <div class="col-12 col-md-4">
+                                <div class="row">
+                                    <div class="col-12 col-md-6"><label class="col-form-label">Gender</label></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-check form-check-inline"><input type="radio" class="form-check-input" id="formCheck-1" /><label class="form-check-label" for="formCheck-1">Male</label></div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-check form-check-inline"><input type="radio" class="form-check-input" id="formCheck-3" /><label class="form-check-label" for="formCheck-1">Female</label></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12 col-md-4"><label class="form-label">Director 5 Name</label><input type="text" class="form-control" required /></div>
+                            <div class="col-12 col-md-4"><label class="form-label">Mobile</label><input type="text" class="form-control" required minlength="10" maxlength="10" /></div>
+                            <div class="col-12 col-md-4">
+                                <div class="row">
+                                    <div class="col-12 col-md-6"><label class="col-form-label">Gender</label></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-check form-check-inline"><input type="radio" class="form-check-input" id="formCheck-1" /><label class="form-check-label" for="formCheck-1">Male</label></div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-check form-check-inline"><input type="radio" class="form-check-input" id="formCheck-3" /><label class="form-check-label" for="formCheck-1">Female</label></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col"><button type="button" class="btn btn-block btn-warning">Sign up!</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
